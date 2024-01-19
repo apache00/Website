@@ -182,12 +182,12 @@ const Home = (props) => {
               <div className="home-container4" id="contact-us">
                 <FeatureCard
                   Heading="Purani Bazar"
-                  SubHeading="Explore our extensive collection of exquisite jewelry pieces"
+                  SubHeading="Sonarpatti, Muzaffarpur"
                   phone="tel:+917050916916"
                 ></FeatureCard>
                 <FeatureCard
                   Heading="Brahampura"
-                  SubHeading="Get personalized jewelry designed to match your unique style and preferences"
+                  SubHeading="Near Prasad Hospital, Main Rd."
                   phone="tel:+918298916916"
                 ></FeatureCard>
                 {/* <FeatureCard
