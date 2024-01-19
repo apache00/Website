@@ -13,12 +13,12 @@ const Home = (props) => {
           {/*  */}
         </Head>
         <header data-role="Header" className="home-header">
-          {/* <img
+          <img
             alt="logo"
-            src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.18169-9/10347808_711674775556019_4026037423630291179_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c2f564&_nc_ohc=HCdJwLZ4R0oAX9DAuUV&_nc_ht=scontent-syd2-1.xx&oh=00_AfDvnzPqnyWiZH35MH2eigDiOteP1toJSK1dl_JpKIQF-w&oe=65CA0D9C"
+            src="https://raw.githubusercontent.com/apache00/Website/main/hpjlogo.png"
             className="home-image"
-          /> */}
-                    
+          />
+                   
         </header>
         
         <div className="home-hero">
@@ -28,7 +28,7 @@ const Home = (props) => {
                 Exquisite Jewellery for Every Occasion
               </h1>
               <span className="home-hero-sub-heading bodyLarge">
-                <span>GOLD | SILVER | DIAMOND | PLATINUM JEWELLERY</span><br/>
+                <span className="gold-slv-plt">GOLD | SILVER | DIAMOND | PLATINUM</span><br/>
                 <span>
                   <span>
                     <span>
@@ -95,7 +95,7 @@ const Home = (props) => {
                 </span>
               </span>
               <div className="home-btn-group">
-                <a href="tel:+918298916916" className="buttonFilled">Contact Us</a>
+                <a href="#contact-us" className="buttonFilled">Contact Us</a>
               </div>
             </div>
           </div>
@@ -179,14 +179,16 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="home-container4">
+              <div className="home-container4" id="contact-us">
                 <FeatureCard
                   Heading="Purani Bazar"
                   SubHeading="Explore our extensive collection of exquisite jewelry pieces"
+                  phone="tel:+917050916916"
                 ></FeatureCard>
                 <FeatureCard
                   Heading="Brahampura"
                   SubHeading="Get personalized jewelry designed to match your unique style and preferences"
+                  phone="tel:+918298916916"
                 ></FeatureCard>
                 {/* <FeatureCard
                   Heading="High-Quality Materials"
@@ -350,6 +352,9 @@ const Home = (props) => {
       </div>
       <style jsx>
         {`
+        .gold-slv-plt{
+          color:#d2a066;
+        }
         .featuresContainer{
           background-color: #6e3003;
         }
@@ -374,9 +379,8 @@ const Home = (props) => {
             position: relative;
           }
           .home-image {
-            height: 100%;
-            width: 100%
-            object-fit: cover;
+            height: 200px;
+            width: auto;
           }
           .home-burger-menu {
             display: none;
@@ -442,7 +446,6 @@ const Home = (props) => {
             width: 100%;
             height: auto;
             display: flex;
-            margin-top: 96px;
             align-items: flex-start;
             justify-content: center;
           }
