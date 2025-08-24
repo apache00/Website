@@ -1,6 +1,8 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
+  { href: '/about', key: 'about_us', label: 'About Us' },
+  { href: '/products', key: 'products', label: 'Products' },
   { href: '/services', key: 'services', label: 'Services' },
   { href: '/policy', key: 'policy ', label: 'Policy ' },
   { href: '/contact', key: 'contact_us', label: 'Contact Us' },
@@ -49,10 +51,12 @@ export const FEATURES = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'Sitemap',
     links: [
       {label:'Home', href: "/"},
-      {label:'Service Policy', href: "/service"},
+      {label:'About', href: "/about"},
+      {label:'Products', href: "/products"},
+      {label:'Service Policy', href: "/services"},
       {label:'Policy', href: "/policy"},
       {label:'Contact Us', href: "/contact"},
     ],
