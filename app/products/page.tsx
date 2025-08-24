@@ -1,9 +1,9 @@
-import About from "@/components/About";
+import Products from "@/components/Products";
 
 export default function Home() {
   return (
     <>
-     <About/>
+     <Products/>
     </>
   )
 }

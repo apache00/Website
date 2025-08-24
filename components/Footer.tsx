@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">© 2024 Hira Panna Jewellers Pvt Ltd, All Rights Reserved.</p>
+        <p className="regular-14 w-full text-center text-gray-30">© 2024 Hira Panna Jewellers Pvt Ltd, All Rights Reserved.&nbsp;&nbsp;&nbsp;<span>GST : 10AADCH3102L1Z7</span></p>
       </div>
     </footer>
   )
