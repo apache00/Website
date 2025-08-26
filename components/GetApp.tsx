@@ -35,7 +35,7 @@ const GetApp = () => {
         <h3 className="bold-20 lg:bold-32  pt-16 capitalize">⁠Discover Our Exceptional Products at</h3>
         <p className="regular-16 pd-l-32 text-white lg:mt-[30px] lg:bg-none">
         Experience the elegance and craftsmanship of our jewelry store.</p>
-        <p className="regular-16 pd-l-32 text-white lg:mt-[30px] lg:bg-none"> <span className='text-white-90'>Registered Address 🏢 </span>: Hira Panna Jewellers Pvt Ltd, C/o Hira Panna Jewellers, Purani Bazar, Brahmantoli, Muzaffarpur (Bihar) – 842001</p>
+        <p className="regular-16 pd-l-32 text-white lg:mt-[30px] lg:bg-none"> <span className='text-white-90'>Registered Address 🏢 </span>: Hira Panna Jewellers, Brahmantoli, Purani Bazar, Muzaffarpur (Bihar) - 842001</p>
         <p className="regular-16 pd-l-32 text-white lg:mt-[30px] lg:bg-none"> GST : 10AADCH3102L1Z7</p>
      
         
