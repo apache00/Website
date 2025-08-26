@@ -1,9 +1,9 @@
-import Service from "@/components/Service";
+import Stores from "@/components/Stores";
 
 export default function Home() {
   return (
     <>
-      <Service />
+     <Stores/>
     </>
   )
 }
