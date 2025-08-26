@@ -9,7 +9,7 @@ const Policy = () => {
           We are here for you
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Our Policy</h2>
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Our Privacy Policy</h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">At Hira Panna Jewellers Pvt Ltd, we value your trust and are committed to protecting your personal information. This policy explains what data we collect, how we use it, and how we keep it safe.
 </p>
         </div>

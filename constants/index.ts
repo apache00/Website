@@ -3,8 +3,9 @@ export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '/about', key: 'about_us', label: 'About Us' },
   { href: '/products', key: 'products', label: 'Products' },
-  { href: '/services', key: 'services', label: 'Services' },
-  { href: '/policy', key: 'policy ', label: 'Policy ' },
+  { href: "/stores", key:"stores", label:'Our Stores'},
+  { href: '/terms-condition', key: 'termsCondition', label: 'Terms & Condition' },
+  { href: '/policy', key: 'policy ', label: 'Privacy Policy' },
   { href: '/contact', key: 'contact_us', label: 'Contact Us' },
 ];
 
@@ -56,8 +57,9 @@ export const FOOTER_LINKS = [
       {label:'Home', href: "/"},
       {label:'About', href: "/about"},
       {label:'Products', href: "/products"},
-      {label:'Service Policy', href: "/services"},
-      {label:'Policy', href: "/policy"},
+      {label:'Our Stores', href: "/stores"},
+      {label:'Terms & Condition', href: "/terms-condition"},
+      {label:'Privacy Policy', href: "/policy"},
       {label:'Contact Us', href: "/contact"},
     ],
   },
@@ -73,6 +75,7 @@ export const FOOTER_CONTACT_INFO = {
     { label: 'Purani Bazar', value: '+917050916916', href: "tel:+917050916916" },
     { label: 'Brahampura', value: '+918298916916', href:"tel:+918298916916" },
     { label: 'Email us', value: 'support@hirapannajewellers.in', href:"mailto:support@hirapannajewellers.in" },
+    { label: "Registered Address: ", value:"Hira Panna Jewellers, Brahmantoli, Purani Bazar, Muzaffarpur (Bihar) - 842001 ",href:""}
   ],
 };
 
